@@ -13,7 +13,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableRowSorter;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -108,7 +110,12 @@ public class LibraryApp extends JFrame
         JLabel lblSearch = new JLabel("Поиск:");
         searchField = new JTextField(20);
         JButton btnSearch = new JButton("Найти");
+        btnSearch.addActionListener(e -> filterTable());
         JButton btnReset = new JButton("Сброс");
+        btnReset.addActionListener(e -> {
+            searchField.setText("");
+            filterTable();
+        });
 
         controlPanel.add(btnAdd);
         controlPanel.add(btnPrice);
@@ -174,6 +181,18 @@ public class LibraryApp extends JFrame
             }
         }
         return null;
+    }
+	
+	private void filterTable() {
+        String query = searchField.getText().toLowerCase();
+        TableRowSorter<DefaultTableModel> sorter = new TableRowSorter<>(tableModel);
+        table.setRowSorter(sorter);
+        
+        if (query.trim().length() == 0) {
+            sorter.setRowFilter(null);
+        } else {
+            sorter.setRowFilter(RowFilter.regexFilter("(?i)" + query, 2, 3, 5)); 
+        }
     }
 
 	private void addBook()
