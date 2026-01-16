@@ -1,108 +1,317 @@
-<?xml version="1.0"?>
-<library>
-	<book id="1" totalCount="10" availableCount="5">
-		<title>Java Programming</title>
-		<author>James Gosling</author>
-		<year>2020</year>
-		<price>49.99</price>
-		<category>programming</category>
-	</book>
-	<book id="2" totalCount="5" availableCount="2">
-        <title>Design Patterns</title>
-        <author>Erich Gamma</author>
-        <year>1994</year>
-        <price>39.99</price>
-        <category>computer-science</category>
-    </book>
-    <book id="3" totalCount="12" availableCount="12">
-        <title>Clean Code</title>
-        <author>Robert Martin</author>
-        <year>2008</year>
-        <price>35.50</price>
-        <category>programming</category>
-    </book>
-    <book id="4" totalCount="7" availableCount="0">
-        <title>Effective Java</title>
-        <author>Joshua Bloch</author>
-        <year>2018</year>
-        <price>45.00</price>
-        <category>programming</category>
-    </book>
-    <book id="5" totalCount="4" availableCount="4">
-        <title>The Clean Coder</title>
-        <author>Robert Martin</author>
-        <year>2011</year>
-        <price>30.00</price>
-        <category>soft-skills</category>
-    </book>
-    <book id="6" totalCount="6" availableCount="3">
-        <title>Java Concurrency in Practice</title>
-        <author>Brian Goetz</author>
-        <year>2006</year>
-        <price>42.00</price>
-        <category>programming</category>
-    </book>
-    <book id="7" totalCount="8" availableCount="5">
-        <title>Head First Java</title>
-        <author>Kathy Sierra</author>
-        <year>2005</year>
-        <price>29.99</price>
-        <category>education</category>
-    </book>
-    <book id="8" totalCount="3" availableCount="1">
-        <title>Refactoring</title>
-        <author>Martin Fowler</author>
-        <year>1999</year>
-        <price>50.00</price>
-        <category>programming</category>
-    </book>
-    <book id="9" totalCount="5" availableCount="5">
-        <title>Thinking in Java</title>
-        <author>Bruce Eckel</author>
-        <year>2006</year>
-        <price>48.00</price>
-        <category>education</category>
-    </book>
-    <book id="10" totalCount="10" availableCount="9">
-        <title>Clean Architecture</title>
-        <author>Robert Martin</author>
-        <year>2017</year>
-        <price>38.00</price>
-        <category>architecture</category>
-    </book>
-    <book id="11" totalCount="6" availableCount="2">
-        <title>Java Puzzlers</title>
-        <author>Joshua Bloch</author>
-        <year>2005</year>
-        <price>25.00</price>
-        <category>programming</category>
-    </book>
-    <book id="12" totalCount="4" availableCount="4">
-        <title>Introduction to Algorithms</title>
-        <author>Thomas H. Cormen</author>
-        <year>2009</year>
-        <price>60.00</price>
-        <category>computer-science</category>
-    </book>
-    <book id="13" totalCount="9" availableCount="6">
-        <title>Spring in Action</title>
-        <author>Craig Walls</author>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><library>
+        	
+    
+    <book availableCount="5" id="1" totalCount="10">
+                		
+        
+        <title>Java Programming</title>
+                		
+        
+        <author>James Gosling</author>
+                		
+        
         <year>2020</year>
-        <price>44.99</price>
-        <category>frameworks</category>
-    </book>
-    <book id="14" totalCount="5" availableCount="1">
-        <title>Hibernate in Action</title>
-        <author>Christian Bauer</author>
-        <year>2015</year>
-        <price>39.50</price>
-        <category>frameworks</category>
-    </book>
-    <book id="15" totalCount="7" availableCount="7">
-        <title>Kotlin in Action</title>
-        <author>Dmitry Jemerov</author>
-        <year>2017</year>
-        <price>36.00</price>
+                		
+        
+        <price>45.99</price>
+                		
+        
         <category>programming</category>
+                	
+    
     </book>
-</library>
+        	
+    
+    <book availableCount="0" id="2" totalCount="5">
+                        
+        
+        <title>Design Patterns</title>
+                        
+        
+        <author>Erich Gamma</author>
+                        
+        
+        <year>1994</year>
+                        
+        
+        <price>39.99</price>
+                        
+        
+        <category>computer-science</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="12" id="3" totalCount="12">
+                        
+        
+        <title>Clean Code</title>
+                        
+        
+        <author>Robert Martin</author>
+                        
+        
+        <year>2008</year>
+                        
+        
+        <price>35.50</price>
+                        
+        
+        <category>programming</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="0" id="4" totalCount="7">
+                        
+        
+        <title>Effective Java</title>
+                        
+        
+        <author>Joshua Bloch</author>
+                        
+        
+        <year>2018</year>
+                        
+        
+        <price>45.00</price>
+                        
+        
+        <category>programming</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="4" id="5" totalCount="4">
+                        
+        
+        <title>The Clean Coder</title>
+                        
+        
+        <author>Robert Martin</author>
+                        
+        
+        <year>2011</year>
+                        
+        
+        <price>30.00</price>
+                        
+        
+        <category>soft-skills</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="3" id="6" totalCount="6">
+                        
+        
+        <title>Java Concurrency in Practice</title>
+                        
+        
+        <author>Brian Goetz</author>
+                        
+        
+        <year>2006</year>
+                        
+        
+        <price>42.00</price>
+                        
+        
+        <category>programming</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="5" id="7" totalCount="8">
+                        
+        
+        <title>Head First Java</title>
+                        
+        
+        <author>Kathy Sierra</author>
+                        
+        
+        <year>2005</year>
+                        
+        
+        <price>29.99</price>
+                        
+        
+        <category>education</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="1" id="8" totalCount="3">
+                        
+        
+        <title>Refactoring</title>
+                        
+        
+        <author>Martin Fowler</author>
+                        
+        
+        <year>1999</year>
+                        
+        
+        <price>50.00</price>
+                        
+        
+        <category>programming</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="5" id="9" totalCount="5">
+                        
+        
+        <title>Thinking in Java</title>
+                        
+        
+        <author>Bruce Eckel</author>
+                        
+        
+        <year>2006</year>
+                        
+        
+        <price>48.00</price>
+                        
+        
+        <category>education</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="9" id="10" totalCount="10">
+                        
+        
+        <title>Clean Architecture</title>
+                        
+        
+        <author>Robert Martin</author>
+                        
+        
+        <year>2017</year>
+                        
+        
+        <price>38.00</price>
+                        
+        
+        <category>architecture</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="2" id="11" totalCount="6">
+                        
+        
+        <title>Java Puzzlers</title>
+                        
+        
+        <author>Joshua Bloch</author>
+                        
+        
+        <year>2005</year>
+                        
+        
+        <price>25.00</price>
+                        
+        
+        <category>programming</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="4" id="12" totalCount="4">
+                        
+        
+        <title>Introduction to Algorithms</title>
+                        
+        
+        <author>Thomas H. Cormen</author>
+                        
+        
+        <year>2009</year>
+                        
+        
+        <price>60.00</price>
+                        
+        
+        <category>computer-science</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="6" id="13" totalCount="9">
+                        
+        
+        <title>Spring in Action</title>
+                        
+        
+        <author>Craig Walls</author>
+                        
+        
+        <year>2020</year>
+                        
+        
+        <price>44.99</price>
+                        
+        
+        <category>frameworks</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="0" id="14" totalCount="5">
+                        
+        
+        <title>Hibernate in Action</title>
+                        
+        
+        <author>Christian Bauer</author>
+                        
+        
+        <year>2015</year>
+                        
+        
+        <price>39.50</price>
+                        
+        
+        <category>frameworks</category>
+                    
+    
+    </book>
+            
+    
+    <book availableCount="7" id="15" totalCount="7">
+                        
+        
+        <title>Kotlin in Action</title>
+                        
+        
+        <author>Dmitry Jemerov</author>
+                        
+        
+        <year>2017</year>
+                        
+        
+        <price>36.00</price>
+                        
+        
+        <category>programming</category>
+                    
+    
+    </book>
+<book availableCount="15" id="16" totalCount="15"><title>Learn Python</title><author>Erich Mathews</author><year>2020</year><price>15.99</price><category>programming</category></book></library>
